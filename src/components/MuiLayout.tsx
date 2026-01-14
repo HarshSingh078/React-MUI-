@@ -26,7 +26,7 @@ export const MuiLayout = () => {
           p={2}></Box>
       </Stack>
       <Grid rowSpacing={2} columnSpacing={1} container my={4}>
-        <Grid item xs={6}>
+        {/* <Grid item xs={6}>
           <Box p={2} bgcolor='primary.light'>
             Item 1
           </Box>
@@ -45,7 +45,7 @@ export const MuiLayout = () => {
           <Box p={2} bgcolor='primary.light'>
             Item 4
           </Box>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Paper>
   )
