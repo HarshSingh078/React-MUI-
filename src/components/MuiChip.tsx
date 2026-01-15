@@ -4,9 +4,9 @@ import { useState } from "react";
 
 export const MuiChip = () => {
   const [chips, setChips] = useState(["Chip1", "Chip2", "Chip3"]);
-  const handleDelete = (chipToDelete : string) => {
-    setChips((chips) => chips.filter((chip)=>chip!==chipToDelete))
-  }
+  const handleDelete = (chipToDelete: string) => {
+    setChips((chips) => chips.filter((chip) => chip !== chipToDelete));
+  };
   return (
     <Stack direction="row" spacing={1}>
       <Chip label="Chip" color="primary" size="small" icon={<FaceIcon />} />
@@ -24,11 +24,9 @@ export const MuiChip = () => {
         onClick={() => alert("Clicked")}
         onDelete={() => alert("Delete Handler called")}
       />
-      {
-        chips.map(chip=> (
-            <Chip key={chip} label={chip} onDelete={()=>handleDelete(chip)}/>
-        ))
-      }
+      {chips.map((chip) => (
+        <Chip key={chip} label={chip} onDelete={() => handleDelete(chip)} />
+      ))}
     </Stack>
   );
 };
