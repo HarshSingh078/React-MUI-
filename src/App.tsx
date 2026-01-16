@@ -9,6 +9,7 @@ import { MuiDialog } from './components/MuiDialog';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiList } from './components/MuiList';
 import { MuiProgress } from './components/MuiProgress';
+import { MuiSkeleton } from './components/MuiSkeleton';
 import { MuiSnackbar } from './components/MuiSnackbar';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiTooltip } from './components/MuiTooltip';
@@ -58,7 +59,8 @@ function App() {
       {/* <MuiAlert/> */}
       {/* <MuiSnackbar/> */}
       {/* <MuiDialog/> */}
-      <MuiProgress/>
+      {/* <MuiProgress/> */}
+      <MuiSkeleton/>
     </div>
   );
 }
