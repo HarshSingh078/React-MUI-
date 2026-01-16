@@ -7,6 +7,7 @@ import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 import { MuiChip } from './components/MuiChip';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiList } from './components/MuiList';
+import { MuiSnackbar } from './components/MuiSnackbar';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiTooltip } from './components/MuiTooltip';
 // import { MuiLink } from './components/MuiLink';
@@ -52,7 +53,8 @@ function App() {
       {/* <MuiList/> */}
       {/* <MuiChip/> */}
       {/* <MuiTooltip/> */}
-      <MuiAlert/>
+      {/* <MuiAlert/> */}
+      <MuiSnackbar/>
     </div>
   );
 }
