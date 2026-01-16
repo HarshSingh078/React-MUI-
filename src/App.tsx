@@ -8,6 +8,7 @@ import { MuiChip } from './components/MuiChip';
 import { MuiDialog } from './components/MuiDialog';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiList } from './components/MuiList';
+import { MuiLoadingButton } from './components/MuiLoadingButton';
 import { MuiProgress } from './components/MuiProgress';
 import { MuiSkeleton } from './components/MuiSkeleton';
 import { MuiSnackbar } from './components/MuiSnackbar';
@@ -60,7 +61,8 @@ function App() {
       {/* <MuiSnackbar/> */}
       {/* <MuiDialog/> */}
       {/* <MuiProgress/> */}
-      <MuiSkeleton/>
+      {/* <MuiSkeleton/> */}
+      <MuiLoadingButton/>
     </div>
   );
 }
