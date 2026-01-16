@@ -5,6 +5,7 @@ import { MuiBadge } from './components/MuiBadge';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 import { MuiChip } from './components/MuiChip';
+import { MuiDialog } from './components/MuiDialog';
 import { MuiDrawer } from './components/MuiDrawer';
 import { MuiList } from './components/MuiList';
 import { MuiSnackbar } from './components/MuiSnackbar';
@@ -54,7 +55,8 @@ function App() {
       {/* <MuiChip/> */}
       {/* <MuiTooltip/> */}
       {/* <MuiAlert/> */}
-      <MuiSnackbar/>
+      {/* <MuiSnackbar/> */}
+      <MuiDialog/>
     </div>
   );
 }
